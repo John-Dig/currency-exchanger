@@ -1,1 +1,0 @@
-// https://v6.exchangerate-api.com/v6/0f996a23e9db7ccdb4d53e72/latest/USD
