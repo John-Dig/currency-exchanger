@@ -15,18 +15,30 @@
 
 ## Description
 
+* This currency exchanger will give you the value of US dollars in a select alternate currency:
+- Brazilian: Real
+- Canadian: Dollar
+- Chinese: Yuan
+- Indian: Rupee
+- Japanese: Yen
+- Korean (Republic of): Won
+
+
 ## Setup/Installation Requirements
-- Rename name "TEMPLATE" in package.json to reflect new project 
-- Rename any files to reflect project name
-- Installing all packages with $ npm install.
-- Building the project using webpack with $ npm run build
-- Starting a development server with $ npm run start
-- Linting JS files in the src folder with $ npm run lint
-- Running tests with Jest using $ npm run test
+- first obtain an api key from  https://www.exchangerate-api.com/
+- then clone the repository to your desktop
+- open it in vs Code
+- open a terminal in the root directory of the program and enter:
+- > touch .env
+- back in vs Code, open the .env file you created and type API_KEY=<YOUR KEY> 
+- do not include the angle brackets, just your key!
+- Install all packages with $ npm install.
+- Start a development server with $ npm run start
+- In the browser window that opened, enter your amount of US dollars, and the currency you would like to convert it to. 
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* none
 
-## License
+#### License
+_completed: 2/10/2023 Open source, free to everyone_

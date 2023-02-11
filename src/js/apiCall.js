@@ -1,5 +1,5 @@
 export class Exchange {
-  static async getRate(amount, countryCode) {
+  static async getJSON() {
     try {
       const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/USD`);
       const jsonResponse = await response.json();

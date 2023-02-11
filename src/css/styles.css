@@ -2,16 +2,21 @@ body {
   background-color:darkgreen;
 }
 
-
 h1 {
   color:khaki
 }
 
 input, button {
   font-size:2rem;
+  margin: 10px;
 }
 
 .output-area {
   font-size:3rem;
+  margin:20px;
 }
 
+select {
+  font-size:2rem;
+  margin: 10px;
+}

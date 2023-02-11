@@ -5,10 +5,11 @@
 </head>
 <body>
   <h1>Currency Exchanger</h1>
-  <h2>Enter an amount in US dollars and select a foreign currency to see what your US dollars are worth.</h2>
+  <h2>Enter an amount in US dollars and select a foreign currency to see what your US dollars are worth in the new currency.</h2>
   <div class="output-area">
-    <input type="number" id="us-dollars" placeholder="$">
+    <span>$</span><input type="number" id="us-dollars" placeholder="$">
     <select id ="country-code">
+      <option value="">Country/ Currency</option>
       <option value="BRL">Brazilian Real</option>
       <option value="CAD">Canadian Dollar</option>
       <option value="CNY">Chinese Yuan</option>
@@ -18,9 +19,9 @@
     </select>
     
     <!-- <input type="text" id="country-code" placeholder="country code"> -->
-    <button type="click" id="button" >submit</button>
-    <p id="exchanged-currency-amount">300</p>
-    <p id="exchanged-currency-symbol">&#163;</p>
+    <button type="click" id="button" >submit</button><br>
+    <span id="exchanged-currency-amount"></span><span id="exchanged-currency-code"></span>
+    
   </div>
 </body>
 </html>
